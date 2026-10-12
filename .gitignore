@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Raw and potentially sensitive datasets
+data/raw/
+data/*.csv
+
+# Local processed data
+data/processed/
+
+# Trained model files
+*.pt
+*.pth
+*.pkl
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Python artifacts
+*.egg-info/
+dist/
+build/
+
+# Include the trained GraphSAGE model
+!results/graphsage_fraud_model.pt
